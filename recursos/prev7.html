@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Prevención de la Arritmia</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Estilos para el título */
+        .main-title {
+            font-size: 36px;
+            color: #20c997; /* Verde agua */
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para el botón de volver atrás */
+        .button-container {
+            margin-bottom: 30px;
+        }
+
+        .back-button {
+            background-color: #20c997;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1aa978;
+        }
+
+        /* Contenedor principal del video y texto */
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra en los bordes */
+        }
+
+        /* Estilos para el contenedor del video */
+        .video-container {
+            flex: 1;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el video */
+            transition: box-shadow 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .video-container:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra en hover */
+        }
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Estilos para el texto */
+        .text-container {
+            flex: 1;
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Título central -->
+        <h1 class="main-title">Prevención de la Arritmia</h1>
+        
+        <!-- Botón para ir atrás -->
+        <div class="button-container">
+            <a href="../index.html" class="back-button">Volver Atrás</a>
+        </div>
+        
+        <!-- Sección de video y texto -->
+        <div class="content-wrapper">
+            <!-- Contenedor del video -->
+            <div class="video-container">
+                <video controls>
+                    <source src="../media/Trucos y consejos para prevenir la salmonela - El HuffPost (360p, h264, youtube).mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <!-- Texto al lado del video -->
+            <div class="text-container">
+                <h2>Consejos para prevenir la salmonela</h2>
+                <ul>
+                    <li>Lávate las manos con agua y jabón antes de comer, después de ir al baño y después de manipular alimentos crudos.</li>
+                    <li>Cocina completamente carnes, huevos y productos de origen animal para eliminar cualquier bacteria de salmonela.</li>
+                    <li>Asegúrate de limpiar y desinfectar utensilios, tablas de cortar y superficies de cocina después de manipular alimentos crudos.</li>
+                    <li>Evita el consumo de alimentos crudos o poco cocidos, especialmente carnes, huevos y productos lácteos no pasteurizados.</li>
+                    <li>Refrigera los alimentos rápidamente y mantenlos a temperaturas seguras para evitar la proliferación de bacterias.</li>
+                    <li>Lava bien las frutas y verduras antes de consumirlas, especialmente si se comen crudas.</li>
+                    <li>Si presentas síntomas de intoxicación alimentaria como diarrea, fiebre y vómitos, consulta a un médico para recibir tratamiento adecuado.</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
